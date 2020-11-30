@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  padding-bottom: 105px;
+}
+.container {
+  max-width: 945px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: darkorange; */
+}
+.nav {
+  display: flex;
+  height: 88px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #828282;
+}
+.nav-link {
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  color: #828282;
+  text-decoration: none;
+}
+
+.hader-text-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.name {
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  font-size: 47.3392px;
+  line-height: 57px;
+  color: #070707;
+}
+.old p {
+  font-family: Gilroy, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #070707;
+}
+.language {
+  transform: rotate(-90deg) translate(70%, 100%);
+}
+
+.language a:first-child::after {
+  content: "";
+  border-right: 2px solid #000000;
+  margin-left: 3px;
+  height: 16px;
+}
+
+.language-link {
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+  text-decoration: none;
+}
+
+.img-wrapper {
+  width: 945px;
+  height: 387px;
+  background-image: url("../img/designer-photo.jpg");
+  background-position-y: 44%;
+  background-position-x: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* About me section */
+.about-me {
+  /* margin-top: 105px; */
+  padding-top: 120px;
+  padding-bottom: 107px;
+  background-color: #f6f6f6;
+}
+
+.about-me-wrapper {
+  text-align: center;
+  max-width: 485px;
+  margin: 0 auto;
+}
+
+.about-me-header {
+  margin: 0;
+  margin-bottom: 18px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  color: #070707;
+}
+
+.about-me-wrapper p {
+  margin: 0;
+  margin-bottom: 47px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+}
+
+.about-me-wrapper p:last-child {
+  margin: 0;
+}
+
+/* Skills section */
+.skills {
+  margin: 0;
+  padding-top: 91px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.skills-header {
+  margin: 0;
+  margin-bottom: 69px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  color: #070707;
+}
+.skills-description {
+  margin: 0;
+  margin-bottom: 84px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+}
+.skills-icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-icon-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 167px;
+}
+
+.icons-img {
+  margin-bottom: 23px;
+}
+
+.skills-icon-description {
+  margin-bottom: 40px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+/* Portfolio section */
+.portfolio {
+  padding-top: 113px;
+  padding-bottom: 96px;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.portfolio-header {
+  margin: 0;
+  margin-bottom: 47px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700px;
+  font-size: 34px;
+  line-height: 41px;
+  color: #070707;
+}
+.portfolio-block {
+  margin-bottom: 99px;
+}
+
+.portfolio-block:last-child {
+  margin: 0;
+}
+
+.portfolio-img {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.portfolio-link {
+  font-family: Gilroy, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+}
+
+/* Footer section */
+.footer {
+  padding-top: 115px;
+  padding-bottom: 124px;
+  text-align: center;
+}
+
+.footer-header {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700px;
+  font-size: 34px;
+  line-height: 41px;
+  color: #070707;
+}
+.footer-description {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+}
+.btn-send-message {
+  margin: 0;
+  margin-bottom: 86px;
+  width: 180px;
+  height: 42px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  background-color: #070707;
+  border-radius: 30px;
+}
+
+.footer-icons:first-child {
+  margin: 0;
+}
+
+.footer-icons-row {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons a {
+  margin: 0 30px;
+  text-decoration: none;
+}
+
+.footer-icons-description {
+  margin: 0;
+  margin-top: 45px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+}
