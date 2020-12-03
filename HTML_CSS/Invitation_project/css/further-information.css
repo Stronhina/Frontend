@@ -1,0 +1,21 @@
+.further-information-wrapper {
+  background-image: url("../img/illustration/illustration.png");
+  background-repeat: no-repeat;
+  background-position: left 100px;
+  padding-top: 105px;
+  padding-bottom: 65px;
+}
+
+.further-information-content {
+  width: 555px;
+  margin-left: auto;
+  color: rgba(13, 62, 96, 0.86);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
+  margin-bottom: 40px;
+}
+
+.further-information-content p {
+  margin-bottom: 25px;
+}
